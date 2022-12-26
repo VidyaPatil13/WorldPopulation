@@ -21,6 +21,7 @@ population_growth_rate decimal(38,2)
 select * from cia_factbook;
 
 -- Loading the Values in the Table
+
 LOAD DATA INFILE 'D:\cia_factbook.csv'
 INTO TABLE CIA_factbook
 FIELDS TERMINATED BY ','
